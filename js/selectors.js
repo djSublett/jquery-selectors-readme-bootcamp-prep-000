@@ -4,7 +4,7 @@ $('div img:first-child')
 $("img[alt='the beatles making faces']");
 
 function paragraphSelector() {
-  $('p')
+  document.getElementByTagName('p');
 }
 
 function lastImageSelector() {
